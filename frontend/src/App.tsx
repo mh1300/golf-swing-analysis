@@ -1,12 +1,14 @@
+import ParticlesBG from "./components/particle-bg";
+import LoginPage from "./components/loginPage";
+
 function App() {
-
   return (
-    <main className="bg-purple-50 h-screen">
-      <h1>
-        Test Text
-      </h1>
-    </main>
+    <ParticlesBG>
+      <div className="flex h-screen p-1 justify-center items-center">
+        <LoginPage/>
+      </div>
+    </ParticlesBG>
   )
-}
+};
 
-export default App
+export default App;
