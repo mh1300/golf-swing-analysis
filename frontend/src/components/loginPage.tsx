@@ -10,7 +10,7 @@ export default function LoginPage() {
     return (
         <div
             id="loginPage"
-            className="h-1/2 w-4/5 relative  rounded-lg"
+            className="h-1/2 w-4/5 relative overflow-hidden rounded-lg"
         >
             <div
                 id="loginForm"
