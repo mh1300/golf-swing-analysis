@@ -149,6 +149,6 @@
   }
 
   .overlay-header {
-    @apply text-5xl font-bold text-white
+    @apply text-5xl font-bold text-white text-shadow-2xs
   }
 }
