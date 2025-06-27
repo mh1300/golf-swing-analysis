@@ -45,7 +45,7 @@ export default function LoginForm() {
                         render={({ field }) => (
                             <FormItem>
                                 <FormControl>
-                                    <Input className="text-2xl" type="email" placeholder="Email Address" {...field} />
+                                    <Input type="email" placeholder="Email Address" {...field} />
                                 </FormControl>
                                 <FormMessage />
                             </FormItem>
