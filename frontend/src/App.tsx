@@ -1,18 +1,12 @@
-import ParticlesBG from "./components/particle-bg";
-import LoginPage from "./components/loginPage";
+import LoginPage from "./components/pages/loginPage";
 import { Routes, Route } from 'react-router-dom';
+import Dashboard from "./components/pages/dashboard";
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={
-        <ParticlesBG>
-          <div className="flex h-screen p-1 justify-center items-center">
-            <LoginPage />
-          </div>
-        </ParticlesBG>
-      }/>
-      <Route path="/dashboard" element={<ParticlesBG/>} />
+      <Route path="/" element={<LoginPage/>}/>
+      <Route path="/dashboard" element={<Dashboard/>} />
     </Routes>
 
   )
