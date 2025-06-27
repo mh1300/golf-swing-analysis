@@ -12,6 +12,7 @@ function App() {
           </div>
         </ParticlesBG>
       }/>
+      <Route path="/dashboard" element={<ParticlesBG/>} />
     </Routes>
 
   )

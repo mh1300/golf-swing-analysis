@@ -12,12 +12,16 @@ import {
 } from "@/components/ui/form"
 import { Input } from "./ui/input"
 
+import { useNavigate } from "react-router-dom"
+
 const formSchema = z.object({
     email: z.string(),
     password: z.string()
 })
 
 export default function LoginForm() {
+    const nav = useNavigate();
+
     // 1. Define your form.
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
@@ -29,9 +33,9 @@ export default function LoginForm() {
 
     // 2. Define a submit handler.
     function onSubmit(values: z.infer<typeof formSchema>) {
-        // Do something with the form values.
-        // ✅ This will be type-safe and validated.
-        console.log(values)
+        console.log(values);
+
+        nav('/dashboard');
     }
 
     return (
