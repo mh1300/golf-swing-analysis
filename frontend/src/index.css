@@ -65,12 +65,12 @@
   --primary-dark: oklch(52% 0.2 205);          /* fallback if needed */
 
   --gradient-start: oklch(80% 0.17 195);       /* lighter version of primary */
-  --gradient-end: oklch(50% 0.2 205);          /* deep version of primary */
-
+  --gradient-end: oklch(50% 0.2 205);       /* deep version of primary */
+  
   /* Accent */
-  --accent: oklch(68% 0.18 205);               /* mid cyan */
+  --accent: var(--color-muted);               /* mid cyan */
   --accent-hover: oklch(60% 0.18 205);         /* slightly darker */
-  --accent-foreground: oklch(12% 0.005 260);
+  --accent-foreground: oklch(97% 0.003 260);
 
   /* Secondary & Support */
   --secondary: oklch(25% 0.02 205);
@@ -84,20 +84,6 @@
   --destructive-foreground: oklch(97% 0.003 260);
 
   --input: oklch(25% 0.01 260);
-
-  /* Sidebar: flashy, gradient-inspired, login-themed */
-  --sidebar-background: oklch(80% 0.17 195);               /* light cyan-teal (≈ --gradient-start) */
-  --sidebar-foreground: oklch(12% 0.005 260);              /* dark blue-gray text (same as login) */
-
-  --sidebar-primary: oklch(50% 0.2 205);                   /* deep cyan-teal (≈ --gradient-end) */
-  --sidebar-primary-foreground: oklch(97% 0.003 260);      /* near-white text */
-
-  --sidebar-accent: oklch(68% 0.18 205);                   /* bright teal (from --accent) */
-  --sidebar-accent-foreground: oklch(10% 0.005 260);       /* dark text on accent */
-
-  --sidebar-border: oklch(60% 0.18 205);                   /* vivid cyan-teal */
-  --sidebar-ring: oklch(65% 0.2 205);                      /* strong ring glow */                      
-  --sidebar: hsl(0 0% 98%);
 }
 
 @layer base {

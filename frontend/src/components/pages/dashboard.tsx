@@ -1,7 +1,10 @@
 import ParticlesBG from "../particle-bg";
+import { NavBar } from "../navBar";
 
 export default function Dashboard() {
   return (
-    <ParticlesBG/>
+    <ParticlesBG>
+      <NavBar></NavBar>
+    </ParticlesBG>
   )
 }
