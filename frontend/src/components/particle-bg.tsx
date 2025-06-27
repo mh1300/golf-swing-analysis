@@ -43,10 +43,10 @@ export default function ParticlesBG({ children }: ParticlesBGProps) {
                         enable: true,
                         mode: "push",
                     },
-                    onHover: {
-                        enable: true,
-                        mode: "repulse",
-                    },
+                    // onHover: {
+                    //     enable: true,
+                    //     mode: "repulse",
+                    // },
                 },
                 modes: {
                     push: {
