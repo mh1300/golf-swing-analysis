@@ -1,13 +1,10 @@
 import ParticlesBG from "../particle-bg";
-import { NavBar } from "../navBar";
+import Header from "@/components/header.tsx";
 
 export default function Dashboard() {
   return (
     <ParticlesBG>
-      <div className="flex py-2 justify-center items-center">
-        <NavBar></NavBar>
-      </div>
-      
+      <Header/>
     </ParticlesBG>
   )
 }
