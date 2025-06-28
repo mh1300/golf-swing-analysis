@@ -14,13 +14,13 @@ import { CircleUser } from "lucide-react"
 
 export default function UserDropdown() {
     return (
-        <NavigationMenu>
+        <NavigationMenu viewport={false}>
             <NavigationMenuList>
-                <NavigationMenuItem>
+                <NavigationMenuItem className="relative">
                     <NavigationMenuTrigger>
                         <CircleUser />
                     </NavigationMenuTrigger>
-                    <NavigationMenuContent>
+                    <NavigationMenuContent className="absolute right-0 left-auto">
                         <ul className="w-20">
                             <ListItem href="/profile" title="Profile" />
                             <ListItem href="/profile/gear" title="My Gear" />

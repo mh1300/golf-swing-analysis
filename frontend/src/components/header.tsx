@@ -5,7 +5,7 @@ import UserDropdown from "./userDropdown";
 
 export default function Header() {
   return (
-      <div className="grid grid-cols-3 px-4 py-2 w-full">
+      <div className="grid grid-cols-3 px-3 py-2 w-full">
         <Link to={"/dashboard"} className="flex items-center space-x-1">
           <Atom className="text-[var(--gradient-start)]" />
           <text className="logo-title">
