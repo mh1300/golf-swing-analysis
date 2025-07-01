@@ -121,6 +121,10 @@
   .logo-title {
     @apply text-lg font-semibold tracking-tight bg-gradient-to-br from-[var(--gradient-start)] to-[var(--gradient-end)] inline-block text-transparent bg-clip-text
   }
+
+  .bg-dashboard-cards {
+    @apply bg-gradient-to-b from-[var(--gradient-start)] to-[var(--gradient-end)]
+  }
 }
 
 .dark {

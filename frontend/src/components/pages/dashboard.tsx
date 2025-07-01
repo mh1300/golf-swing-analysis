@@ -1,10 +1,14 @@
-import ParticlesBG from "../particle-bg";
 import Header from "@/components/header.tsx";
+import DashboardCards from "../dashCards";
 
 export default function Dashboard() {
+  
+
   return (
-    <ParticlesBG>
-      <Header/>
-    </ParticlesBG>
+    <div>
+      <Header />
+      <DashboardCards />
+    </div>
+
   )
 }
