@@ -46,7 +46,7 @@ export default function SwingBreakdown() {
                     {/* Section that will be for photo selection */}
                     <ScrollArea className="flex flex-col h-7/8 w-full items-center m-1">
                         {swings.map((swing, index) => (
-                            <Card key={index} className="m-2 mr-4 ml-4 p-2">
+                            <Card key={index} className="m-2 mr-4 ml-4 p-2 border-ring">
                                 <CardTitle>{swing.club}</CardTitle>
                                 <CardDescription>
                                     <div>{`Date: ${swing.date}`}</div>
