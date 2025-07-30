@@ -95,6 +95,12 @@
   }
 }
 
+@layer components {
+  .video-js .vjs-control-bar {
+    @apply bg-[var(--primary)]
+  }
+}
+
 @layer utilities {
   .btn-gradient {
     @apply px-4 py-2 rounded-xl text-white font-semibold shadow-md

@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Dashboard from "./components/pages/dashboard";
 import LoginPage from "./components/pages/loginPage";
-import SwingBreakdown from './components/pages/swingBreakdown';
+import SwingBreakdown from './components/swingBreakdown';
 
 function App() {
   return (
