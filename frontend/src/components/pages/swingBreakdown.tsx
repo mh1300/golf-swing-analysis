@@ -58,7 +58,7 @@ export default function SwingBreakdown() {
                     </ScrollArea>
                     <Button className="btn-gradient w-3/4 h-15 m-2" onClick={() => { alert("HERE IS A MESSAGE") }}>Add Video</Button>
                 </div>
-                <div className="flex flex-3 flex-col border-muted border-l-1 border-r-1 justify-center p-10">
+                <div className="relative z-0 flex flex-3 flex-col border-muted border-l-1 border-r-1 justify-center p-10">
                     <VideoPlayer src="https://videos.pexels.com/video-files/5455877/5455877-uhd_2560_1440_30fps.mp4" />
                 </div>
                 <div className="flex flex-1 border-muted border-l-1">

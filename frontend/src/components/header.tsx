@@ -13,11 +13,11 @@ export default function Header() {
           </text>
         </Link>
 
-        <div className="flex justify-center items-center">
+        <div className="z-50 flex justify-center items-center">
             <NavBar />
         </div>
         
-        <div className="flex justify-end">
+        <div className="z-50 flex justify-end">
             <UserDropdown />
         </div>
       </div>
