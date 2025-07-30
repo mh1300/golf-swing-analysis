@@ -9,6 +9,5 @@ export default function Dashboard() {
       <Header />
       <DashboardCards />
     </div>
-
   )
 }

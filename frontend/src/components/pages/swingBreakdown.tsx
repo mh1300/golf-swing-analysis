@@ -40,9 +40,9 @@ const swings = [
 
 export default function SwingBreakdown() {
     return (
-        <div>
+        <div className="flex flex-col h-screen">
             <Header />
-            <div className="flex h-screen">
+            <div className="flex flex-1 overflow-hidden">
                 <div className="flex flex-1 flex-col border-muted border-r-1 border-b-2 items-center">
                     {/* Section that will be for photo selection */}
                     <ScrollArea className="flex flex-col h-7/8 w-full items-center m-1">
