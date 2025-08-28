@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "5137:5137"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
