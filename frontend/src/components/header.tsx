@@ -1,4 +1,4 @@
-import { NavBar } from "@/components/navBar";
+// import { NavBar } from "@/components/navBar";
 import { Atom } from "lucide-react";
 import { Link } from "react-router-dom";
 import UserDropdown from "./userDropdown";
@@ -14,7 +14,7 @@ export default function Header() {
         </Link>
 
         <div className="z-50 flex justify-center items-center">
-            <NavBar />
+            {/* <NavBar /> */}
         </div>
         
         <div className="z-50 flex justify-end">

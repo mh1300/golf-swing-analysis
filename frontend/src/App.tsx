@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import Dashboard from "./components/pages/dashboard";
+// import Dashboard from "./components/pages/dashboard";
 import LoginPage from "./components/pages/loginPage";
 import SwingBreakdown from './components/pages/swingBreakdown';
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<LoginPage/>}/>
-      <Route path="/dashboard" element={<Dashboard/>} />
+      {/* <Route path="/dashboard" element={<Dashboard/>} /> */}
       <Route path="/swing/breakdown" element={<SwingBreakdown />} />
     </Routes>
 

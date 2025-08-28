@@ -43,7 +43,7 @@ export default function SignupForm() {
     function onSubmit(values: z.infer<typeof formSchema>) {
         console.log(values);
 
-        nav('/dashboard');
+        nav('/swing/breakdown');
     }
 
     return (

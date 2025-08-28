@@ -35,7 +35,7 @@ export default function LoginForm() {
     function onSubmit(values: z.infer<typeof formSchema>) {
         console.log(values);
 
-        nav('/dashboard');
+        nav('/swing/breakdown');
     }
 
     return (
